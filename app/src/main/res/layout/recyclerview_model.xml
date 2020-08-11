@@ -35,6 +35,8 @@
         android:layout_marginTop="5dp"/>
 
 
+
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -45,6 +47,19 @@
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
         android:layout_marginTop="5dp"/>
+
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/item_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is sample text!"
+            android:fontFamily="cursive"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"/>
 
     </LinearLayout>
 </androidx.cardview.widget.CardView>
